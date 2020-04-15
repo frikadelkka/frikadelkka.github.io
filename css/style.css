@@ -1,0 +1,44 @@
+/* navbar color #212529*/
+.hei {
+  min-height: calc(100vh - 86px);
+}
+.hei2{
+  max-height: calc(100vh - 86px);
+}
+ul.list {
+  text-align:left;
+  display: inline-block;
+  color:#707070;
+  font-size: 3vh;
+}
+.line {
+  border-bottom: 10px solid white;
+  margin: 25px 25%;
+}
+/*.line2{
+  border-bottom: 1px solid #707070;
+  height: 2px;
+  background: linear-gradient(0.25turn, white, #707070, white);
+}*/
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+p.text-left,p.text-right {
+  color:#707070;
+  font-size: 3vh;
+}
+h1{
+  font-size: 5vh;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+	  height:50px;
+	  width:50px;
+  }
+
+/* на lg */
+@media (min-width: 1200px) {
+  
+}
+

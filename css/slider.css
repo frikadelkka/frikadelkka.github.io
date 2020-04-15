@@ -1,0 +1,54 @@
+.slick-track{
+  display:flex;	
+}
+.slider{
+	position: relative;
+}
+.slider .slick-next{
+	background: url('../img/toRight.png') center center no-repeat;
+	right: 0;
+}
+.slider .slick-prev{
+	background: url('../img/toLeft.png') center center no-repeat;
+	left: 0;
+}
+.slider .slick-arrow{
+	font-size: 0px;
+	background-size: 80%;
+	border: 0px;
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	
+	top: 50%;
+	margin-top: -33px;
+	z-index: 10;
+}
+.slider .slick-dots{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	text-align: center;
+}	
+.slider .slick-dots li{
+	list-style:none;
+	width: 20px;
+	height: 20px;
+	background: #707070;
+	border-radius:50%;
+	display:inline-block;
+	margin: 0 5px;
+}
+.slider .slick-dots li.slick-active{
+	background: #de6260;
+}
+.slider .slick-dots li button{
+	display:none;
+}
+@media screen and (max-width: 768px){
+    .slick-prev,.slick-next{
+        visibility: hidden;
+    }
+}
