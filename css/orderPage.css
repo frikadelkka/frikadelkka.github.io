@@ -1,0 +1,50 @@
+.container-fluid{
+	padding: 0;
+	margin:0;
+}
+.content-section {
+  padding: 1em;
+
+  text-align: center;
+}
+.stickyBlock {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 0;
+  margin:0;
+  text-align: center;
+  background: gold;
+  height: 100vh;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+ul.list {
+  text-align: left;
+  display: inline-block;
+  color: #707070;
+  font-size: 1.5em;
+}
+h1{
+  font-size: 6vh;
+  color:#de6260;
+  }
+.form-group, .form-check {
+	color:#707070;
+	font-size: 3vh;
+}
+@media screen and (max-width: 991px){
+    #leftBlock{
+        display: none;
+    }
+}
+@media screen and (max-width: 767px){
+    .stickyBlock{
+        display: none;
+    }
+}
+
+

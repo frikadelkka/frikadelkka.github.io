@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Корзина</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/products.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" integrity="sha256-nAmazAk6vS34Xqo0BSrTb+abbtFlgsFK7NKSi6o7Y78=" crossorigin="anonymous" />
+  </head>
+  <body>
+    <!----------- top menu ----------->
+<!-- header area -->
+    <header id="header">
+      <div class="row m-0">
+		<div class="col-3 bg-dark">
+		  <nav class="primary-nav navbar-expand-md">
+			<div class="site-title text-center text-light py-5">
+			  <a href="index.html" class="navbar-brand">
+				<img src="img/logo.png" width="172" height="60" alt="logo"><!--logo size 0,3478260869565217 -->
+			  </a>
+            </div>
+            <div class="d-flex flex-column">
+              <a href="products.html" class="nav-link">Добавить товар</a>
+              <a href="orderPage.html" class="nav-link ">Подтвердить заказ</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button> 
+    </header>
+    <!-- #header area -->
+    <main id="site-main">
+        <div class="row m-0">
+            <div class="col-md-9 offset-md-3">
+			  <!------------------ Торты ------------------>
+              <section class="prodCard row py-4 px-4 hei" id="cakes" >
+				<div class="prodInfo">
+				  <h1 style="text-align: center; color:#de6260;">Корзина</h1>
+				</div>
+				<div class="card my-2" style="width: 18rem;">
+					  <img class="card-img-top" src="img/cupcakes/cupcake4.jpg" alt="Капкейк 4">
+					  <div class="card-body">
+						<h5 class="card-title">Капкейк 4</h5>
+						<p class="card-text">Состав: ингридиент 1, ингридиент 3, ингридиент 4, ингридиент 5, ингридиент 5.</p>
+						<div class="container">
+					<div class="row no-gutters changeNumber">
+						<div class="col-3">
+							<button type="button" class="btn btn-default btn-lg" data-quantity="minus" data-field="quantity1">
+								<svg class="bi bi-dash-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="#de6260" xmlns="http://www.w3.org/2000/svg">
+								  <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+								  <path fill-rule="evenodd" d="M3.5 8a.5.5 0 01.5-.5h8a.5.5 0 010 1H4a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+								</svg>
+							</button>
+						</div>
+						<div class="col-3">
+						 <input type="text" class="form-control input-number" name="quantity1" value="1" min="1" max="40">
+						</div>
+						<div class="col-3">
+							<button type="button" class="btn btn-default btn-lg" data-quantity="plus" data-field="quantity1">
+								<svg class="bi bi-plus-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="#de6260" xmlns="http://www.w3.org/2000/svg">
+								  <path fill-rule="evenodd" d="M8 3.5a.5.5 0 01.5.5v4a.5.5 0 01-.5.5H4a.5.5 0 010-1h3.5V4a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+								  <path fill-rule="evenodd" d="M7.5 8a.5.5 0 01.5-.5h4a.5.5 0 010 1H8.5V12a.5.5 0 01-1 0V8z" clip-rule="evenodd"/>
+								  <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+								</svg>
+							</button>
+						</div>
+					</div>
+					</div>
+					  </div>
+				</div>
+				<div class="card my-2" style="width: 18rem;">
+					  <img class="card-img-top" src="img/desserts/dessert3.jpg" alt="Десерт 3">
+					  <div class="card-body">
+						<h5 class="card-title">Десерт 3</h5>
+						<p class="card-text">Состав: ингридиент 1, ингридиент 3, ингридиент 4, ингридиент 5, ингридиент 5.</p>
+						<div class="container">
+					<div class="row no-gutters changeNumber">
+						<div class="col-3">
+							<button type="button" class="btn btn-default btn-lg" data-quantity="minus" data-field="quantity2">
+								<svg class="bi bi-dash-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="#de6260" xmlns="http://www.w3.org/2000/svg">
+								  <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+								  <path fill-rule="evenodd" d="M3.5 8a.5.5 0 01.5-.5h8a.5.5 0 010 1H4a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+								</svg>
+							</button>
+						</div>
+						<div class="col-3">
+						 <input type="text" class="form-control input-number" name="quantity2" value="1" min="1" max="40">
+						</div>
+						<div class="col-3">
+							<button type="button" class="btn btn-default btn-lg" data-quantity="plus" data-field="quantity2">
+								<svg class="bi bi-plus-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="#de6260" xmlns="http://www.w3.org/2000/svg">
+								  <path fill-rule="evenodd" d="M8 3.5a.5.5 0 01.5.5v4a.5.5 0 01-.5.5H4a.5.5 0 010-1h3.5V4a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+								  <path fill-rule="evenodd" d="M7.5 8a.5.5 0 01.5-.5h4a.5.5 0 010 1H8.5V12a.5.5 0 01-1 0V8z" clip-rule="evenodd"/>
+								  <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+								</svg>
+							</button>
+						</div>
+					</div>
+					</div>
+					  </div>
+				</div>
+				<div class="card my-2" style="width: 18rem;">
+					  <img class="card-img-top" src="img/trifles/trifle6.jpg" alt="Трайфл 6">
+					  <div class="card-body">
+						<h5 class="card-title">Трайфл 6</h5>
+						<p class="card-text">Состав: ингридиент 1, ингридиент 3, ингридиент 4, ингридиент 5, ингридиент 5.</p>
+						<div class="container">
+					<div class="row no-gutters changeNumber">
+						<div class="col-3">
+							<button type="button" class="btn btn-default btn-lg" data-quantity="minus" data-field="quantity3">
+								<svg class="bi bi-dash-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="#de6260" xmlns="http://www.w3.org/2000/svg">
+								  <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+								  <path fill-rule="evenodd" d="M3.5 8a.5.5 0 01.5-.5h8a.5.5 0 010 1H4a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+								</svg>
+							</button>
+						</div>
+						<div class="col-3">
+						 <input type="text" class="form-control input-number" name="quantity3" value="1" min="1" max="40">
+						</div>
+						<div class="col-3">
+							<button type="button" class="btn btn-default btn-lg" data-quantity="plus" data-field="quantity3">
+								<svg class="bi bi-plus-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="#de6260" xmlns="http://www.w3.org/2000/svg">
+								  <path fill-rule="evenodd" d="M8 3.5a.5.5 0 01.5.5v4a.5.5 0 01-.5.5H4a.5.5 0 010-1h3.5V4a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+								  <path fill-rule="evenodd" d="M7.5 8a.5.5 0 01.5-.5h4a.5.5 0 010 1H8.5V12a.5.5 0 01-1 0V8z" clip-rule="evenodd"/>
+								  <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+								</svg>
+							</button>
+						</div>
+					</div>
+					</div>
+					  </div>
+				</div>
+				<div class="card my-2" style="width: 18rem;">
+				  <img class="card-img-top" src="img/cakes/cake2.jpg" alt="Торт 2">
+				  <div class="card-body">
+					<h5 class="card-title">Торт 2</h5>
+					<p class="card-text">Состав: ингридиент 1, ингридиент 3, ингридиент 4, ингридиент 5, ингридиент 5.</p>
+					<div class="container">
+					<div class="row no-gutters changeNumber">
+						<div class="col-3">
+							<button type="button" class="btn btn-default btn-lg" data-quantity="minus" data-field="quantity4">
+								<svg class="bi bi-dash-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="#de6260" xmlns="http://www.w3.org/2000/svg">
+								  <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+								  <path fill-rule="evenodd" d="M3.5 8a.5.5 0 01.5-.5h8a.5.5 0 010 1H4a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+								</svg>
+							</button>
+						</div>
+						<div class="col-3">
+						 <input type="text" class="form-control input-number" name="quantity4" value="1" min="1" max="40">
+						</div>
+						<div class="col-3">
+							<button type="button" class="btn btn-default btn-lg" data-quantity="plus" data-field="quantity4">
+								<svg class="bi bi-plus-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="#de6260" xmlns="http://www.w3.org/2000/svg">
+								  <path fill-rule="evenodd" d="M8 3.5a.5.5 0 01.5.5v4a.5.5 0 01-.5.5H4a.5.5 0 010-1h3.5V4a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+								  <path fill-rule="evenodd" d="M7.5 8a.5.5 0 01.5-.5h4a.5.5 0 010 1H8.5V12a.5.5 0 01-1 0V8z" clip-rule="evenodd"/>
+								  <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+								</svg>
+							</button>
+						</div>
+					</div>
+					</div>
+				  </div>
+				</div>
+				
+                </section>
+            </div>
+        </div>
+    </main>
+	<!-- JavaScript -->
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/products.js"></script>
+	<script src="js/number.js"></script>
+  </body>
+</html>
